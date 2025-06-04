@@ -1,0 +1,812 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+  <meta charset="utf-8">
+  <!-- Meta Tags SEO -->
+  <meta content="Explore códigos de cores HTML com nosso seletor avançado, gerador de paletas e gráficos em tempo real. Aprenda HEX, RGB, HSL e teoria das cores para design web." name="description">
+  <meta content="códigos de cores HTML, seletor de cores, conversor de cores, cores HEX, RGB, HSL, cores CSS, gerador de paletas, design web, exportar PNG, teoria das cores" name="keywords">
+  <meta content="Html-Color-Codes.info" name="author">
+  <meta content="index, follow" name="robots">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="https://html-color-codes.info/" rel="canonical">
+  <link rel="shortcut icon" href="../../html-color-codes.info/favicon.ico" type="image/x-icon">
+  <title>Seletor de Códigos de Cores HTML, Hex, RGB, HSL</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="../../html-color-codes.info/style.css" rel="stylesheet">
+<script async="" src="../../pagead2.googlesyndication.com/pagead/js/adsbygoogle_client%3Dca-pub-5683009700012859.js" crossorigin="anonymous"></script>
+  <!-- Google tag -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TH6V9TS4L2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TH6V9TS4L2');
+  </script>
+
+  <script src="../../cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="../../cdn.jsdelivr.net/npm/html2canvas%401.4.1/dist/html2canvas.min.js"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "HTML Color Codes",
+    "url": "https://html-color-codes.info/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://html-color-codes.info/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    },
+    "description": "Explore códigos de cores HTML, converta entre formatos HEX, RGB, HSL, selecione cores de imagens, gere paletas e acompanhe tendências em tempo real para projetos de design.",
+    "inLanguage": "pt-BR",
+    "publisher": {
+      "@type": "Organization",
+      "name": "HTML Color Codes",
+      "url": "https://html-color-codes.info",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://html-color-codes.info/img/logo3.gif",
+        "width": 270,
+        "height": 90
+      }
+    }
+  }
+  </script>
+
+  <style>
+    @media (max-width: 768px) {
+      .custom-style-6, .tool-panel, .custom-style-36, .custom-style-38, .custom-style-40, .custom-style-53 {
+        padding: 1rem;
+      }
+      .custom-style-29 {
+        flex-direction: column;
+      }
+      .custom-style-35, #colorChart {
+        width: 100% !important;
+        height: auto !important;
+      }
+      .palette-bar {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .custom-style-55 > div {
+        width: 100% !important;
+      }
+      .main-menu .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .main-menu .dropdown-menu {
+        position: static;
+      }
+      .menu-toggle {
+        display: block;
+      }
+      .nav-links {
+        display: none;
+      }
+      .nav-links.active {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+     <div class="bubbles">
+  <span></span><span></span><span></span><span></span>
+  <span></span><span></span><span></span><span></span>
+  <span></span><span></span><span></span><span></span>
+  <span></span><span></span><span></span><span></span>
+  <span></span><span></span><span></span><span></span>
+  <span></span><span></span><span></span><span></span>
+  <span></span><span></span><span></span><span></span>
+  <span></span><span></span><span></span><span></span>
+</div>
+<!-- Menu de navegação -->
+<nav class="main-menu" style="max-width: 1260px; margin: auto; background-color:#0f172a; font-size:15px;">
+  <div class="logo">
+    <a href="https://html-color-codes.info"><img src="../../html-color-codes.info/img/logo3.gif" alt="Logo HTML Color Codes" width="195" height="62" style="display: block;"></a>
+  </div>
+  <button class="menu-toggle" onclick="document.getElementById('navLinks').classList.toggle('active')">☰</button>
+  <div class="nav-links" id="navLinks" style="font-size:14px;">
+    <a class="custom-style-61" href="https://html-color-codes.info">Seletor de Cores</a>
+    <a class="custom-style-61" href="https://html-color-codes.info/colors-from-image">Cores da Imagem</a>
+    <a class="custom-style-61" href="https://html-color-codes.info/color-names">Nomes das Cores</a>
+    <a class="custom-style-61" href="https://html-color-codes.info/convert-color-format">Converter Formato</a>
+   <a class="custom-style-61" href="https://html-color-codes.info/library" onmouseout="this.style.color='#94a3b8'" onmouseover="this.style.color='#C11D54'">Biblioteca de Cores</a>
+<!-- Tools Dropdown -->
+<div class="dropdown">
+  <a href="#" onclick="toggleDropdown(event)">Mais Ferramentas ▾</a>
+  <div class="dropdown-menu" id="dropdownMenu">
+    <a href="https://html-color-codes.info/web-safe-colors">Cores Seguras para Web</a>
+    <a href="https://html-color-codes.info/html-editor">Editor HTML</a>
+    <a href="#">Verificador de Acessibilidade</a>
+    <a href="https://html-color-codes.info/about">Sobre</a>
+    <a href="https://html-color-codes.info/contact">Contato</a>
+    <a href="https://html-color-codes.info/privacypolicy">Política de Privacidade</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section>
+  <!-- Cabeçalho -->
+  <h1 class="custom-style-4">Escolha, <a href="https://html-color-codes.info/convert-color-format" target="_blank" style="color:#C11D54;"> Converta </a> e Gere Códigos de Cor HTML Instantaneamente</h1>
+  <p class="custom-style-5">
+    Explore e personalize instantaneamente códigos de cor HTML usando nosso seletor de cores poderoso e fácil de usar. Perfeito para design de sites, construção de interfaces ou experimentação com tons.
+  </p>
+
+  <!-- Cores Populares -->
+  <section class="custom-style-6">
+    <h2 class="custom-style-7">🎨 Cores Web Populares</h2>
+    <div class="custom-style-8">
+      <div class="custom-style-8">
+<!-- Add 30 popular color swatches -->
+<div class="custom-style-9" onclick="updateColor('#ff5733')" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 0 10px rgba(255,255,255,0.3)';" title="#ff5733"></div>
+<div class="custom-style-10" onclick="updateColor('#3498db')" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 0 10px rgba(255,255,255,0.3)';" title="#3498db"></div>
+<div class="custom-style-11" onclick="updateColor('#1abc9c')" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 0 10px rgba(255,255,255,0.3)';" title="#1abc9c"></div>
+<div class="custom-style-12" onclick="updateColor('#9b59b6')" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 0 10px rgba(255,255,255,0.3)';" title="#9b59b6"></div>
+<div class="custom-style-13" onclick="updateColor('#f1c40f')" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 0 10px rgba(255,255,255,0.3)';" title="#f1c40f"></div>
+<div class="custom-style-14" onclick="updateColor('#e74c3c')" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 0 10px rgba(255,255,255,0.3)';" title="#e74c3c"></div>
+<div class="custom-style-15" onclick="updateColor('#2ecc71')" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 0 10px rgba(255,255,255,0.3)';" title="#2ecc71"></div>
+<div class="custom-style-16" onclick="updateColor('#34495e')" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 0 10px rgba(255,255,255,0.3)';" title="#34495e"></div>
+<div class="custom-style-17" onclick="updateColor('#ff69b4')" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 0 10px rgba(255,255,255,0.3)';" title="#ff69b4"></div>
+<div class="custom-style-18" onclick="updateColor('#8e44ad')" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 0 10px rgba(255,255,255,0.3)';" title="#8e44ad"></div>
+<div class="custom-style-19" onclick="updateColor('#27ae60')" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 0 10px rgba(255,255,255,0.3)';" title="#27ae60"></div>
+<div class="custom-style-20" onclick="updateColor('#16a085')" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 0 10px rgba(255,255,255,0.3)';" title="#16a085"></div>
+<div class="custom-style-21" onclick="updateColor('#d35400')" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 0 10px rgba(255,255,255,0.3)';" title="#d35400"></div>
+<div class="custom-style-22" onclick="updateColor('#2980b9')" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 0 10px rgba(255,255,255,0.3)';" title="#2980b9"></div>
+<div class="custom-style-23" onclick="updateColor('#c0392b')" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 0 10px rgba(255,255,255,0.3)';" title="#c0392b"></div>
+<div class="custom-style-24" onclick="updateColor('#7f8c8d')" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 0 10px rgba(255,255,255,0.3)';" title="#7f8c8d"></div>
+<div class="custom-style-25" onclick="updateColor('#ecf0f1')" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 0 10px rgba(255,255,255,0.3)';" title="#ecf0f1"></div>
+<div class="custom-style-26" onclick="updateColor('#e67e22')" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 0 10px rgba(255,255,255,0.3)';" title="#e67e22"></div>
+<div class="custom-style-27" onclick="updateColor('#bdc3c7')" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 0 10px rgba(255,255,255,0.3)';" title="#bdc3c7"></div>
+<div class="custom-style-28" onclick="updateColor('#2c3e50')" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';" onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 0 10px rgba(255,255,255,0.3)';" title="#2c3e50"></div>
+</div>
+    </div>
+  </section>
+
+  <!-- Painel de Ferramentas -->
+ <!-- TOOL SECTION -->
+<section class="tool-panel">
+<div class="custom-style-29">
+<div class="custom-style-30" id="exportBox" style="display: flex; flex-direction: column; align-items: center;">
+  <!-- Arrow and label -->
+  <div style="text-align: center; margin-bottom: 15px;">
+    <div style="font-size: 20px; font-weight: 600; color: white;">Escolha a cor</div>
+    <div style="width: 0; height: 0; margin: 0 auto; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 14px solid #cbd5e1; animation: bounce 1.4s infinite;"></div>
+    <style>
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+}
+</style>
+  </div>
+
+<div class="color-circle-wrapper" style="position: relative; display: inline-block;">
+  <input class="circle-picker" id="colorInput" type="color" value="#4f46e5" style="cursor: pointer;">
+  <div class="pen-icon" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); pointer-events: none;">
+  <svg width="18" height="18" fill="white" viewBox="0 0 24 24">
+    <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a1.004 1.004 0 0 0 0-1.42l-2.34-2.34a1.004 1.004 0 0 0-1.42 0l-1.83 1.83 3.75 3.75 1.84-1.82z"></path>
+  </svg>
+</div>
+
+</div>
+        <div class="custom-style-31" id="colorNoteBox">
+          <span class="custom-style-32">🖱️</span>
+          <span>Clique no círculo acima para escolher uma cor e visualizar seus valores + gráfico.</span>
+        </div>
+        <div class="custom-style-33" id="colorPreview" style="background: rgb(79, 70, 229);"></div>
+        <div class="custom-style-34">
+          <div class="format-box"><span class="label">🎯 HEX:</span> <span id="hexValue">#4f46e5</span> <span class="copy-btn" onclick="copyText('hexValue')">📋</span></div>
+          <div class="format-box"><span class="label">🌈 RGB:</span> <span id="rgbValue">rgb(79, 70, 229)</span> <span class="copy-btn" onclick="copyText('rgbValue')">📋</span></div>
+          <div class="format-box"><span class="label">🎨 HSL:</span> <span id="hslValue">hsl(243, 75%, 59%)</span> <span class="copy-btn" onclick="copyText('hslValue')">📋</span></div>
+        </div>
+      </div>
+      <div class="custom-style-35">
+        <canvas height="240" id="colorChart"></canvas>
+      </div>
+    </div>
+    <div class="tool-buttons">
+      <button onclick="generatePalette()">🎨 Gerar Paleta</button>
+      <button onclick="downloadPNG()">📥 Exportar PNG</button>
+      <a href="https://html-color-codes.info/colors-from-image/" class="pick-image-btn" target="_blank">🖼️ Escolha cores da imagem</a>
+    </div>
+    <div class="palette-bar" id="paletteOutput"></div>
+  </section>
+</section>
+
+<!-- Tendências de Cores em Tempo Real -->
+<section class="custom-style-36">
+  <h3 class="custom-style-37">Descubra as Tendências Atuais em Cores para Web</h3>
+  <p>
+    Acompanhe as tendências com nossa análise de uso de cores em tempo real. Esta seção mostra quais cores estão se destacando em sites, interfaces e marcas digitais. Ideal para designers, desenvolvedores e criativos que buscam inspiração com dados reais.
+  </p>
+</section>
+
+<!-- Gráfico em Tempo Real -->
+<section class="custom-style-38">
+  <h2 class="custom-style-39">📈 Tendência de Uso de Cores (Tempo Real)</h2>
+  <canvas height="100px" id="usageChart"></canvas>
+</section>
+<!-- Seção: Teoria das Cores -->
+<section class="custom-style-40">
+  <h2 class="custom-style-41">🧱 Compreendendo as Cores HTML Básicas</h2>
+  <p class="custom-style-42">
+    As cores são parte fundamental do design web, e o HTML oferece diversas maneiras simples de aplicá-las. Existem 140 nomes de cores suportados pelos principais navegadores — de <code>red</code> e <code>blue</code> até tons divertidos como <code>tomato</code>, <code>goldenrod</code> e <code>papayawhip</code>.
+  </p>
+  <p class="custom-style-43">
+    Além dos nomes, HTML e CSS permitem definir cores com precisão usando os formatos <strong>HEX</strong> (<code>#ff6347</code>), <strong>RGB</strong> (<code>rgb(255, 99, 71)</code>) e <strong>HSL</strong> (<code>hsl(9, 100%, 64%)</code>). Eles são essenciais para personalizar sistemas visuais e construir temas.
+  </p>
+  <p class="custom-style-43">
+    Para adicionar cores ao seu site, você geralmente usa CSS. Por exemplo:
+  </p>
+  <pre class="custom-style-44">/* Define cor de fundo e texto */
+body {
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+
+/* Estilo para botão */
+button {
+  background-color: tomato;
+  color: white;
+}
+  </pre>
+  <p class="custom-style-43">
+    Ao aprender a aplicar e personalizar cores em HTML usando CSS, você assume total controle sobre o estilo da sua página. Ferramentas como este seletor facilitam a escolha das cores ideais.
+  </p>
+
+  <h2 class="custom-style-45">🎯 O Poder da Cor no Design Web</h2>
+  <p class="custom-style-42">
+    Cor é mais do que estética — é comunicação. No design web, as cores afetam como as pessoas se sentem, interagem e lembram. Um laranja vibrante convida à ação; azuis profundos transmitem confiança.
+  </p>
+  <p class="custom-style-43">
+    Com HTML e CSS, é fácil personalizar cores. De botões a planos de fundo, bordas e links — tudo pode ser estilizado. Você pode usar nomes simples como <code>coral</code> ou <code>steelblue</code>, ou valores como <code>#1e40af</code>, <code>rgb(30, 64, 175)</code> ou <code>hsl(226, 71%, 40%)</code>.
+  </p>
+  <p class="custom-style-43">
+    Mas escolha de cor também é sobre acessibilidade. Sempre verifique contraste e legibilidade. Ferramentas como este toolkit ajudam a testar combinações e garantir boa leitura em modo escuro.
+  </p>
+  <p class="custom-style-43">
+    Dica rápida: escolha 1 ou 2 cores principais e use variações de saturação e brilho como destaque. Isso garante um design limpo e fácil de navegar.
+  </p>
+
+  <h2 class="custom-style-46">Teoria dos Códigos de Cores HTML</h2>
+  <p>Você já se perguntou: “Esse conjunto de letras e números tem algum significado?” Sim! Veja como funciona:</p>
+  <p><strong>Formato:</strong><br> Cada código HTML começa com "#" e contém 6 letras ou números. Eles representam valores em hexadecimal. Por exemplo, "FF" equivale a 255 no sistema decimal.</p>
+  <p><strong>Significado:</strong><br> Os dois primeiros definem a intensidade do vermelho. Os dois seguintes, do verde. E os dois últimos, do azul. Combinando essas intensidades, é possível criar qualquer cor imaginável.</p>
+  <p><strong>Exemplos:</strong></p>
+  <ul class="custom-style-47">
+    <li><code>#FF0000</code> – Vermelho puro</li>
+    <li><code>#00FF00</code> – Verde puro</li>
+    <li><code>#0000FF</code> – Azul puro</li>
+    <li><code>#FFFF00</code> – Amarelo (vermelho + verde)</li>
+    <li><code>#CCEEFF</code> – Azul céu claro</li>
+  </ul>
+</section>
+
+<!-- Paletas em Tendência -->
+<section class="custom-style-53" id="colorPalettes">
+  <h2 class="custom-style-54">🔥 Paletas de Cores Web em Alta</h2>
+  <div class="custom-style-55" id="paletteContainer"><div style="background: rgba(255, 255, 255, 0.06); border-radius: 12px; overflow: hidden; width: 240px;"><div style="display: flex;"><div style="background: rgb(30, 58, 138); height: 50px; flex: 1 1 0%;"></div><div style="background: rgb(59, 130, 246); height: 50px; flex: 1 1 0%;"></div><div style="background: rgb(147, 197, 253); height: 50px; flex: 1 1 0%;"></div></div><div style="padding: 1rem; color: rgb(241, 245, 249); text-align: center;">Ocean Breeze</div></div><div style="background: rgba(255, 255, 255, 0.06); border-radius: 12px; overflow: hidden; width: 240px;"><div style="display: flex;"><div style="background: rgb(255, 94, 87); height: 50px; flex: 1 1 0%;"></div><div style="background: rgb(255, 169, 135); height: 50px; flex: 1 1 0%;"></div><div style="background: rgb(255, 214, 165); height: 50px; flex: 1 1 0%;"></div></div><div style="padding: 1rem; color: rgb(241, 245, 249); text-align: center;">Sunset Mood</div></div><div style="background: rgba(255, 255, 255, 0.06); border-radius: 12px; overflow: hidden; width: 240px;"><div style="display: flex;"><div style="background: rgb(20, 184, 166); height: 50px; flex: 1 1 0%;"></div><div style="background: rgb(94, 234, 212); height: 50px; flex: 1 1 0%;"></div><div style="background: rgb(204, 251, 241); height: 50px; flex: 1 1 0%;"></div></div><div style="padding: 1rem; color: rgb(241, 245, 249); text-align: center;">Cool Mint</div></div><div style="background: rgba(255, 255, 255, 0.06); border-radius: 12px; overflow: hidden; width: 240px;"><div style="display: flex;"><div style="background: rgb(123, 52, 30); height: 50px; flex: 1 1 0%;"></div><div style="background: rgb(183, 121, 31); height: 50px; flex: 1 1 0%;"></div><div style="background: rgb(214, 158, 46); height: 50px; flex: 1 1 0%;"></div></div><div style="padding: 1rem; color: rgb(241, 245, 249); text-align: center;">Warm Earth</div></div><div style="background: rgba(255, 255, 255, 0.06); border-radius: 12px; overflow: hidden; width: 240px;"><div style="display: flex;"><div style="background: rgb(26, 32, 44); height: 50px; flex: 1 1 0%;"></div><div style="background: rgb(45, 55, 72); height: 50px; flex: 1 1 0%;"></div><div style="background: rgb(74, 85, 104); height: 50px; flex: 1 1 0%;"></div></div><div style="padding: 1rem; color: rgb(241, 245, 249); text-align: center;">Nightfall</div></div><div style="background: rgba(255, 255, 255, 0.06); border-radius: 12px; overflow: hidden; width: 240px;"><div style="display: flex;"><div style="background: rgb(255, 192, 203); height: 50px; flex: 1 1 0%;"></div><div style="background: rgb(255, 105, 180); height: 50px; flex: 1 1 0%;"></div><div style="background: rgb(219, 112, 147); height: 50px; flex: 1 1 0%;"></div></div><div style="padding: 1rem; color: rgb(241, 245, 249); text-align: center;">Rose Garden</div></div><div style="background: rgba(255, 255, 255, 0.06); border-radius: 12px; overflow: hidden; width: 240px;"><div style="display: flex;"><div style="background: rgb(6, 95, 70); height: 50px; flex: 1 1 0%;"></div><div style="background: rgb(16, 185, 129); height: 50px; flex: 1 1 0%;"></div><div style="background: rgb(110, 231, 183); height: 50px; flex: 1 1 0%;"></div></div><div style="padding: 1rem; color: rgb(241, 245, 249); text-align: center;">Forest Calm</div></div><div style="background: rgba(255, 255, 255, 0.06); border-radius: 12px; overflow: hidden; width: 240px;"><div style="display: flex;"><div style="background: rgb(75, 0, 130); height: 50px; flex: 1 1 0%;"></div><div style="background: rgb(106, 13, 173); height: 50px; flex: 1 1 0%;"></div><div style="background: rgb(138, 43, 226); height: 50px; flex: 1 1 0%;"></div></div><div style="padding: 1rem; color: rgb(241, 245, 249); text-align: center;">Royal Touch</div></div><div style="background: rgba(255, 255, 255, 0.06); border-radius: 12px; overflow: hidden; width: 240px;"><div style="display: flex;"><div style="background: rgb(217, 119, 6); height: 50px; flex: 1 1 0%;"></div><div style="background: rgb(234, 88, 12); height: 50px; flex: 1 1 0%;"></div><div style="background: rgb(245, 158, 11); height: 50px; flex: 1 1 0%;"></div></div><div style="padding: 1rem; color: rgb(241, 245, 249); text-align: center;">Autumn Spice</div></div><div style="background: rgba(255, 255, 255, 0.06); border-radius: 12px; overflow: hidden; width: 240px;"><div style="display: flex;"><div style="background: rgb(217, 70, 239); height: 50px; flex: 1 1 0%;"></div><div style="background: rgb(244, 63, 94); height: 50px; flex: 1 1 0%;"></div><div style="background: rgb(250, 204, 21); height: 50px; flex: 1 1 0%;"></div></div><div style="padding: 1rem; color: rgb(241, 245, 249); text-align: center;">Neon Glow</div></div></div>
+</section>
+
+<!-- Rodapé -->
+<footer class="custom-style-56">
+  <div class="custom-style-57">
+    <div class="logo custom-style-0">
+      <span class="custom-style-58">{</span>
+      <span class="custom-style-59">Html-Color-Codes.info</span>
+      <span class="custom-style-58">}</span>
+    </div>
+    <div class="custom-style-60">
+      <a class="custom-style-61" href="https://html-color-codes.info">Seletor de Cores</a>
+      <a class="custom-style-61" href="https://html-color-codes.info/colors-from-image">Cores da Imagem</a>
+      <a class="custom-style-61" href="https://html-color-codes.info/color-names">Nomes das Cores</a>
+      <a class="custom-style-61" href="https://html-color-codes.info/convert-color-format">Converter Formato</a>
+      <a class="custom-style-61" href="https://html-color-codes.info/html-editor">Editor HTML</a>
+      <a class="custom-style-61" href="https://html-color-codes.info/about">Sobre</a>
+      <a class="custom-style-61" href="https://html-color-codes.info/privacypolicy">Política de Privacidade</a>
+      <a class="custom-style-61" href="https://html-color-codes.info/contact">Contato</a>
+    </div>
+    <div class="custom-style-62">
+      © 2025 <strong>Html-Color-Codes.info</strong> — Todos os direitos reservados. Feito com ❤️ para desenvolvedores e designers.
+    </div>
+  </div>
+</footer>
+<!-- SCRIPT -->
+<script>
+  const palettes = [
+    { name: "Ocean Breeze", colors: ["#1E3A8A", "#3B82F6", "#93C5FD"] },
+    { name: "Sunset Mood", colors: ["#FF5E57", "#FFA987", "#FFD6A5"] },
+    { name: "Cool Mint", colors: ["#14B8A6", "#5EEAD4", "#CCFBF1"] },
+    { name: "Warm Earth", colors: ["#7B341E", "#B7791F", "#D69E2E"] },
+    { name: "Nightfall", colors: ["#1A202C", "#2D3748", "#4A5568"] },
+    { name: "Rose Garden", colors: ["#FFC0CB", "#FF69B4", "#DB7093"] },
+    { name: "Forest Calm", colors: ["#065F46", "#10B981", "#6EE7B7"] },
+    { name: "Royal Touch", colors: ["#4B0082", "#6A0DAD", "#8A2BE2"] },
+    { name: "Autumn Spice", colors: ["#D97706", "#EA580C", "#F59E0B"] },
+    { name: "Neon Glow", colors: ["#D946EF", "#F43F5E", "#FACC15"] }
+  ];
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const container = document.getElementById("paletteContainer");
+    palettes.forEach(palette => {
+      const div = document.createElement("div");
+      div.style = "background: rgba(255,255,255,0.06); border-radius: 12px; overflow: hidden; width: 240px;";
+      const row = document.createElement("div");
+      row.style = "display: flex;";
+      palette.colors.forEach(hex => {
+        const swatch = document.createElement("div");
+        swatch.style = `background:${hex}; height: 50px; flex:1`;
+        row.appendChild(swatch);
+      });
+      const label = document.createElement("div");
+      label.textContent = palette.name;
+      label.style = "padding: 1rem; color: #f1f5f9; text-align: center;";
+      div.appendChild(row);
+      div.appendChild(label);
+      container.appendChild(div);
+    });
+  });
+</script>
+
+<!-- start trnd color chart  -->
+<script>
+const usageCtx = document.getElementById("usageChart").getContext('2d');
+let usageChart = new Chart(usageCtx, {
+  type: 'bar',
+  data: {
+    labels: [],
+    datasets: [{
+      label: 'Color Popularity %',
+      data: [],
+      backgroundColor: [],
+      borderRadius: 6,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    responsive: true,
+    scales: {
+      y: {
+        beginAtZero: true,
+        ticks: { color: '#f8fafc' },
+        grid: { color: 'rgba(255,255,255,0.1)' }
+      },
+      x: {
+        ticks: { color: '#f8fafc' },
+        grid: { color: 'rgba(255,255,255,0.1)' }
+      }
+    },
+    plugins: {
+      legend: { labels: { color: '#f8fafc' } }
+    }
+  }
+});
+
+function updateUsageChart() {
+  const colors = ['#a47864', '#e6d8db' , '#d0dbde' , '#ff8c69' , '#74070E', '#FFEDA8', '#BOA6DF', '#4e78', '#f0E7DA', '#e74c3c'];
+  const now = new Date();
+  const dateStr = now.toLocaleTimeString();
+  const data = colors.map(() => Math.floor(Math.random() * 30) + 5);
+
+  usageChart.data.labels = colors;
+  usageChart.data.datasets[0].data = data;
+  usageChart.data.datasets[0].backgroundColor = colors;
+  usageChart.update();
+
+  console.log(`Chart updated at ${dateStr}`);
+}
+
+updateUsageChart();
+setInterval(updateUsageChart, 10000);
+</script>
+
+
+<!-- Start LOGO ANIMATION -->
+<script>
+const text = "Html-Color-Codes.info";
+const segments = text.split("-");
+const colorCycles = ['#0ADCBF', '#E14FFC', '#FF62A5', '#FFB828'];
+let segIndex = 0, charIndex = 0;
+const el = document.getElementById("typed-text");
+
+// Site Languages
+
+function toggleLangDropdown(event) {
+  event.preventDefault();
+  const menu = document.getElementById("languageMenu");
+  menu.style.display = (menu.style.display === "flex") ? "none" : "flex";
+  event.stopPropagation();
+}
+
+document.addEventListener("click", function (e) {
+  const langMenu = document.getElementById("languageMenu");
+  const toolsMenu = document.getElementById("dropdownMenu");
+
+  if (!e.target.closest(".dropdown")) {
+    if (langMenu) langMenu.style.display = "none";
+    if (toolsMenu) toolsMenu.style.display = "none";
+  }
+});
+
+
+function typeLogo() {
+  if (!el) return;
+
+  let result = "";
+  for (let i = 0; i < segIndex; i++) {
+    const color = colorCycles[i % colorCycles.length];
+    result += `<span style="color:${color};">${segments[i]}-</span>`;
+  }
+
+  const currentColor = colorCycles[segIndex % colorCycles.length];
+  const currentText = segments[segIndex].slice(0, charIndex);
+  result += `<span style="color:${currentColor};">${currentText}</span>`;
+  el.innerHTML = result;
+
+  if (charIndex < segments[segIndex].length) {
+    charIndex++;
+    setTimeout(typeLogo, 80); // faster typing
+  } else {
+    segIndex++;
+    charIndex = 0;
+    if (segIndex < segments.length) {
+      setTimeout(typeLogo, 300); // slight pause between segments
+    } else {
+      // Fade out and restart
+      el.style.transition = "opacity 0.6s ease";
+      el.style.opacity = 0;
+      setTimeout(() => {
+        el.innerHTML = "";
+        el.style.opacity = 1;
+        segIndex = 0;
+        charIndex = 0;
+        typeLogo();
+      }, 800); // wait for fade out before reset
+    }
+  }
+}
+
+typeLogo();
+</script>
+
+<!-- END LOGO ANIMATION -->
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  // Dropdown: More Tools
+  const dropdownTrigger = document.querySelector(".dropdown > a[onclick*='toggleDropdown']");
+  const dropdownMenu = document.getElementById("dropdownMenu");
+  const dropdown = dropdownTrigger?.closest(".dropdown");
+
+  if (dropdownTrigger && dropdown && dropdownMenu) {
+    dropdownTrigger.addEventListener("click", function (e) {
+      e.preventDefault();
+      dropdown.classList.toggle("open");
+    });
+  }
+
+  // Dropdown: Language
+  const langTrigger = document.querySelector(".dropdown > a[onclick*='toggleLangDropdown']");
+  const langMenu = document.getElementById("languageMenu");
+  const langDropdown = langTrigger?.closest(".dropdown");
+
+  if (langTrigger && langDropdown && langMenu) {
+    langTrigger.addEventListener("click", function (e) {
+      e.preventDefault();
+      langDropdown.classList.toggle("open");
+    });
+  }
+
+  // Close both dropdowns if clicking outside
+  document.addEventListener("click", function (e) {
+    if (dropdown && !dropdown.contains(e.target)) {
+      dropdown.classList.remove("open");
+    }
+    if (langDropdown && !langDropdown.contains(e.target)) {
+      langDropdown.classList.remove("open");
+    }
+  });
+});
+</script>
+
+<script>
+// Fix dropdown menu for mobile interaction
+
+function toggleDropdown(event) {
+  event.preventDefault();
+  const menu = document.getElementById("dropdownMenu");
+  menu.style.display = (menu.style.display === "flex") ? "none" : "flex";
+  event.stopPropagation();
+}
+
+document.addEventListener("click", function (e) {
+  const menu = document.getElementById("dropdownMenu");
+  if (!e.target.closest(".dropdown")) {
+    menu.style.display = "none";
+  }
+});
+
+// Fix PNG export inside tool section
+function downloadPNG(){
+  const exportElement = document.getElementById("exportBox");
+  if (!exportElement) return;
+
+  html2canvas(exportElement, {
+    allowTaint: true,
+    useCORS: true,
+    backgroundColor: null
+  }).then(canvas => {
+    const link = document.createElement("a");
+    link.download = "color-info.png";
+    link.href = canvas.toDataURL("image/png");
+    link.click();
+  });
+}
+</script>
+
+
+<!-- [Existing scripts remain unchanged below this comment] -->
+<script>
+const colorSets = {
+  flat: ['#1abc9c', '#2ecc71', '#3498db', '#9b59b6', '#34495e', '#16a085', '#27ae60', '#2980b9', '#8e44ad', '#2c3e50', '#f1c40f', '#e67e22', '#e74c3c', '#ecf0f1', '#95a5a6', '#f39c12', '#d35400', '#c0392b', '#bdc3c7', '#7f8c8d'],
+  material: ['#f44336', '#e91e63', '#9c27b0', '#673ab7', '#3f51b5', '#2196f3', '#03a9f4', '#00bcd4', '#009688', '#4caf50', '#8bc34a', '#cddc39', '#ffeb3b', '#ffc107', '#ff9800', '#ff5722', '#795548', '#607d8b', '#000000', '#ffffff'],
+  websafe: []
+};
+
+['00','33','66','99','CC','FF'].forEach(r => {
+  ['00','33','66','99','CC','FF'].forEach(g => {
+    ['00','33','66','99','CC','FF'].forEach(b => {
+      colorSets.websafe.push(`#${r}${g}${b}`);
+    });
+  });
+});
+
+function renderSwatches() {
+  const set = document.getElementById("colorSet").value;
+  const colors = colorSets[set];
+  const swatchContainer = document.getElementById("swatches");
+  swatchContainer.innerHTML = '';
+  colors.forEach(hex => {
+    const div = document.createElement("div");
+    div.style.background = hex;
+    div.style.height = "60px";
+    div.style.borderRadius = "10px";
+    div.style.cursor = "pointer";
+    div.style.boxShadow = "0 2px 8px rgba(0,0,0,0.2)";
+    div.style.display = "flex";
+    div.style.alignItems = "center";
+    div.style.justifyContent = "center";
+    div.style.color = getContrastYIQ(hex);
+    div.style.fontWeight = "600";
+    div.style.fontSize = "0.9rem";
+    div.textContent = hex;
+    div.title = `Click to copy ${hex}`;
+    div.onclick = () => {
+      navigator.clipboard.writeText(hex);
+      div.textContent = '✔ Copied';
+      setTimeout(() => div.textContent = hex, 1000);
+    };
+    swatchContainer.appendChild(div);
+  });
+}
+
+function getContrastYIQ(hexcolor) {
+  hexcolor = hexcolor.replace("#", "");
+  const r = parseInt(hexcolor.substr(0,2),16);
+  const g = parseInt(hexcolor.substr(2,2),16);
+  const b = parseInt(hexcolor.substr(4,2),16);
+  const yiq = ((r*299)+(g*587)+(b*114))/1000;
+  return (yiq >= 128) ? '#000' : '#fff';
+}
+
+renderSwatches();
+</script>
+
+
+<script>
+  const input = document.getElementById("colorInput");
+  const preview = document.getElementById("colorPreview");
+  const hexValue = document.getElementById("hexValue");
+  const rgbValue = document.getElementById("rgbValue");
+  const hslValue = document.getElementById("hslValue");
+  const paletteOutput = document.getElementById("paletteOutput");
+  let chart, autoChange = true;
+
+  function hexToRgb(hex) {
+    const bigint = parseInt(hex.slice(1), 16);
+    return `rgb(${(bigint >> 16) & 255}, ${(bigint >> 8) & 255}, ${bigint & 255})`;
+  }
+
+  function hexToHsl(hex) {
+    let r = parseInt(hex.substr(1,2),16)/255;
+    let g = parseInt(hex.substr(3,2),16)/255;
+    let b = parseInt(hex.substr(5,2),16)/255;
+    let max = Math.max(r, g, b), min = Math.min(r, g, b);
+    let h, s, l = (max + min) / 2;
+    if(max == min){ h = s = 0; }
+    else {
+      let d = max - min;
+      s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+      switch(max){
+        case r: h = (g - b) / d + (g < b ? 6 : 0); break;
+        case g: h = (b - r) / d + 2; break;
+        case b: h = (r - g) / d + 4; break;
+      }
+      h /= 6;
+    }
+    return `hsl(${Math.round(h*360)}, ${Math.round(s*100)}%, ${Math.round(l*100)}%)`;
+  }
+
+  function hslToHex(h,s,l){
+    s /= 100; l /= 100;
+    let a = s * Math.min(l, 1 - l);
+    let f = n => {
+      let k = (n + h / 30) % 12;
+      let color = l - a * Math.max(-1, Math.min(k - 3, 9 - k, 1));
+      return Math.round(255 * color).toString(16).padStart(2, '0');
+    };
+    return `#${f(0)}${f(8)}${f(4)}`;
+  }
+
+  function renderColorChart(hex) {
+    const data = {
+      labels: ['Jan','Feb','Mar','Apr','May','Jun'],
+      datasets: [{
+        label: `Usage of ${hex}`,
+        data: Array.from({length:6}, () => Math.floor(Math.random()*40)+10),
+        borderColor: hex,
+        fill: false
+      }]
+    };
+    if(chart) chart.destroy();
+    chart = new Chart(document.getElementById("colorChart"), { type: 'line', data });
+  }
+
+  function updateColor(hex) {
+    input.value = hex;
+    preview.style.background = hex;
+    hexValue.textContent = hex;
+    rgbValue.textContent = hexToRgb(hex);
+    hslValue.textContent = hexToHsl(hex);
+    renderColorChart(hex);
+  }
+
+  function generatePalette() {
+    const base = input.value;
+    const [h,s,l] = hexToHsl(base).match(/\d+(\.\d+)?/g).map(Number);
+    paletteOutput.innerHTML = '';
+    for(let i=-2;i<=2;i++){
+      let newHue = (h + i*30 + 360) % 360;
+      let newHex = hslToHex(newHue,s,l);
+      const div = document.createElement('div');
+      div.className = 'palette-color';
+      div.style.background = newHex;
+      div.style.color = l > 60 ? '#000' : '#fff';
+      div.textContent = newHex;
+      paletteOutput.appendChild(div);
+    }
+  }
+
+function downloadPNG(){
+  const preview = document.getElementById("colorPreview");
+  if (!preview) return;
+
+  html2canvas(preview, {
+    allowTaint: true,
+    useCORS: true,
+    backgroundColor: null
+  }).then(canvas => {
+    const link = document.createElement("a");
+    link.download = "color-preview.png";
+    link.href = canvas.toDataURL("image/png");
+    link.click();
+  });
+}
+
+ function copyText(id){
+  const text = document.getElementById(id).textContent;
+  navigator.clipboard.writeText(text);
+
+  // Create toast notification
+  const toast = document.createElement('div');
+  toast.textContent = `Copied: ${text}`;
+  toast.style.position = 'fixed';
+  toast.style.bottom = '20px';
+  toast.style.left = '50%';
+  toast.style.transform = 'translateX(-50%)';
+  toast.style.background = '#1e293b';
+  toast.style.color = '#f8fafc';
+  toast.style.padding = '0.75rem 1.5rem';
+  toast.style.borderRadius = '8px';
+  toast.style.boxShadow = '0 4px 12px rgba(0,0,0,0.3)';
+  toast.style.fontSize = '0.95rem';
+  toast.style.zIndex = '9999';
+  toast.style.opacity = '0';
+  toast.style.transition = 'opacity 0.4s ease';
+
+  document.body.appendChild(toast);
+  requestAnimationFrame(() => toast.style.opacity = '1');
+
+  setTimeout(() => {
+    toast.style.opacity = '0';
+    setTimeout(() => toast.remove(), 300);
+  }, 2000);
+}
+
+
+  setInterval(()=>{
+    if(autoChange){
+      const rand = '#' + Math.floor(Math.random()*16777215).toString(16).padStart(6,'0');
+      updateColor(rand);
+    }
+  },2000);
+
+  input.addEventListener("input",()=>{ autoChange = false; updateColor(input.value); });
+  input.addEventListener("click",()=>autoChange=false);
+
+  setTimeout(() => {
+    const noteBox = document.getElementById("colorNoteBox");
+    if (noteBox) {
+      noteBox.style.animation = 'fadeOut 0.10s ease forwards';
+      setTimeout(() => noteBox.remove(), 400);
+    }
+  }, 20000);
+
+  updateColor(input.value);
+</script>
+<script>
+const colorA = document.getElementById("colorA");
+const colorB = document.getElementById("colorB");
+const colorAText = document.getElementById("colorAText");
+const colorBText = document.getElementById("colorBText");
+const boxA = document.getElementById("boxA");
+const boxB = document.getElementById("boxB");
+
+function updateComparison() {
+  colorAText.textContent = colorA.value;
+  colorBText.textContent = colorB.value;
+  boxA.style.background = colorA.value;
+  boxB.style.background = colorB.value;
+  boxA.style.color = getContrastYIQ(colorA.value);
+  boxB.style.color = getContrastYIQ(colorB.value);
+}
+
+function getContrastYIQ(hexcolor){
+  hexcolor = hexcolor.replace("#", "");
+  const r = parseInt(hexcolor.substr(0,2),16);
+  const g = parseInt(hexcolor.substr(2,2),16);
+  const b = parseInt(hexcolor.substr(4,2),16);
+  const yiq = ((r*299)+(g*587)+(b*114))/1000;
+  return (yiq >= 128) ? '#000' : '#fff';
+}
+
+colorA.addEventListener("input", updateComparison);
+colorB.addEventListener("input", updateComparison);
+updateComparison();
+</script>
+
+<script src="../../html-color-codes.info/script.js"></script>
+<div data-tooltip="Leia o código ou clique para apoiar esta ferramenta gratuita 💖" id="donateQR" style="position: fixed; bottom: 20px; right: 20px; z-index: 9999; background: rgba(0,0,0,0.85); padding: 14px 16px 18px 16px; border-radius: 16px; box-shadow: 0 8px 20px rgba(0,0,0,0.5); animation: floatQR 2s ease-in-out infinite alternate;" title="Leia ou clique no botão para apoiar este projeto 💖">
+<div onclick="document.getElementById('donateQR').style.display='none';" estilo="posição: absoluta; topo: 5px; direita: 8px; cursor: ponteiro; cor: branco; tamanho da fonte: 16px;" title="Ocultar">✖</div>
+<div style="text-align:center;">
+<img alt="Doe um Código QR" src="../../html-color-codes.info/uploads/download-wise.png" style="width: 120px; height: 120px; border-radius: 10px;">
+<div style="color: #fff; margin-top: 0.5rem; font-size: 0.9rem;">💖 Apoie esta ferramenta</div>
+<a href="https://wise.com/pay/business/freegamescodesltd" style="margin-top:8px; display:inline-block; background: #C11D54; color: white; padding: 6px 14px; border-radius: 8px; text-decoration: none; font-size: 0.85rem;" target="_blank">💖 Apoie esta ferramenta</a>
+</div>
+</div>
+<style>
+@keyframes floatQR {
+0% { transform: translateY(0px); }
+100% { transform: translateY(-10px); }
+}
+</style>
+
+
+</body></html>
